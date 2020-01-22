@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- ****Bootstrap cdn file**** -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <!-- *****Bootstrap jquery file****** -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <!--***** Bootstrap minified javascript ****-->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <!--***** Font family***** -->
+     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+     <!-- ****Stylesheet***** -->
+     <link rel="stylesheet" href="./css/dashboard.css">
+     <link rel="stylesheet" href="./css/pc1.css">
+    <title>PC-1</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">                       
+            </button>
+            <h2 class="logo" href="#">ShipChain</h2>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+        
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="images/user_icon.png" alt="user-icon"></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+      <div class="container-fluid text-center">    
+        <div class="row content">
+          <div class="col-sm-2 sidenav">
+            <p><img src="./images/dashboard-icon.png"style="width:30px;height:30px"><a href="#">Dashboard</a></p>
+            <p><img src="./images/prepare-block.png"style="width:30px;height:30px"><a href="#">Prepare Block</a></p>
+            <p><img src="./images/logout-icon.png"style="width:30px;height:30px"><a href="#">Log Out</a></p>
+          </div>
+          <div class="col-sm-10 text-center"> 
+            <div class="getbutton">
+              <button type="submit" class="btn">Get Id</button>
+            </div>
+              <div class="container product-form">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group form-block">
+                      <label for="inputblockid" class="col-sm-6 control-label">Block ID:</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control pc-form" id="blockid" required>
+                      </div>
+                    </div>
+                    <div class="form-group form-block ">
+                      <label for="inputProductname" class="col-sm-6 control-label">Product Name:</label>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control pc-form" id="productid" required>
+                      </div>
+                    </div>
+                    <div class="form-group form-block ">
+                        <label for="inputProductname" class="col-sm-6 control-label">Quantity:</label>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control pc-form" id="productid" required>
+                        </div>
+                      </div>
+                      <div class="form-group form-block">
+                        <label for="inputProductname" class="col-sm-6 control-label">Supplier Name:</label>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control pc-form " id="productid" required>
+                        </div>
+                      </div>
+                      <div class="form-group form-block ">
+                        <label for="inputProductname" class="col-sm-6 control-label">Price:</label>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control pc-form" id="productid" required>
+                        </div>
+                      </div>
+                    <div class="form-group form-block ">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-success form-buttom">Send</button>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+</body>
+</html>

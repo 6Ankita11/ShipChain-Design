@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#F1F4F6;
+    overflow-x:hidden;
+}
+.logo
+{
+    height: 100px;
+    margin: 35px 0 0 56px;
+    cursor:pointer;
+    color:#20509E;
+    position:absolute;
+    top:2%;  
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+ 
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 90px;
+    background-color: #fff;
+    height:88vh;
+    box-shadow: 4px 0 5px -2px rgba(0,0,0,0.6);
+    z-index:-1;  
+  }
+  .sidenav p{
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 40px;
+   
+  }
+  .sidenav img{
+      float:left;
+      margin-left:20px;
+  }
+  .sidenav a{
+    position: absolute;
+    left: 30%;
+  }
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    text-align: center;
+    margin-top:100px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .server-client
+  {
+      width:100%;
+      margin-left:230px;
+  
+  }
+  .server-client h2{
+    color:#20509E;
+    font-weight:bold;
+  }
+  .connect-button
+  {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    width: 160px;
+    height: 45px;
+    position: absolute;
+    right: 33%;
+    top:50%;
+    font-size:25px;
+    font-weight:bold;
+    border-radius:14px!important;
+   
+}
+/* PUBLIC KEY TABLE */
+.rwd-table {
+    width:60%;
+    border-radius: .3em;
+    border-collapse: collapse;
+    overflow: hidden;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .rwd-table tr:first-child {
+    border-top: none;
+    background: #E6E6E6;
+    color: #20509E;
+  }
+  
+  .rwd-table tr {
+    background-color: #f5f9fc;
+  }
+  
+  .rwd-table tr:nth-child(odd):not(:first-child) {
+    background-color: #E6E6E6;
+  }
+  
+  .rwd-table th {
+    text-align: left;
+  }
+  
+  .rwd-table {
+    color: #333;
+    border-radius: .4em;
+    overflow: hidden;
+  }
+  
+  .rwd-table tr {
+    border-color: #bfbfbf;
+  }
+  
+  .rwd-table th, .rwd-table td {
+    padding: .75em 1em;
+    float:left;
+  }
+  
+  .rwd-table tr:hover:not(:first-child) {
+      background-color: #d8e7f3;
+    }
+  .public-key
+  {
+      position:absolute;
+      left:33%;
+      top:72%;   
+  }
+  .public-key .publichead
+  {
+    padding-left:280px;
+  }
+  .public-key  .public{
+    padding-left:200px;
+    position:absolute;
+  }
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }

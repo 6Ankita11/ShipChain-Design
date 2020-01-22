@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ****Bootstrap cdn file**** -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- *****Bootstrap jquery file****** -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--***** Bootstrap minified javascript ****-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--***** Font family***** -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!-- ****Stylesheet***** -->
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">                       
+            </button>
+            <h2 class="logo" href="#">ShipChain</h2>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+        
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="images/user_icon.png" alt="user-icon"></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+      <div class="container-fluid text-center">    
+        <div class="row content">
+          <div class="col-sm-2 sidenav">
+            <p><img src="./images/dashboard-icon.png"style="width:30px;height:30px"><a href="#">Dashboard</a></p>
+            <p><img src="./images/prepare-block.png"style="width:30px;height:30px"><a href="#">Prepare Block</a></p>
+            <p><img src="./images/logout-icon.png"style="width:30px;height:30px"><a href="#">Log Out</a></p>
+          </div>
+          <div class="col-sm-8 text-left"> 
+            ​<div class="row server-client">
+                <div class="column">
+                  <div class="card">
+                   <img src="images/server.png"width="180px"height="180px">
+                  </div>
+                  <h2>Server</h2>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                  <button type="submit"class="btn btn-success connect-button">Connect</button>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card">
+                    <img src="images/client.png"width="180px"height="180px">
+                  </div>
+                  <h2>Client</h2>
+                </div>
+              </div>
+          </div>
+        
+          </div>
+          <div class="container public-key">
+            <table class="rwd-table">
+              <tbody>
+                <tr>
+                  <th>Device</th>        
+                  <th class="publichead">Public Key</th>
+                </tr>
+                <tr>        
+                  <td data-th="PC"style="color:#20509E;float:left">
+                    PC 1
+                  </td>        
+                  <td data-th="Net Amount" class="public">
+                     assadsfgfhgjhasdfghjklxcvbnm
+                  </td>
+                </tr>
+                <tr>        
+                  <td data-th="Server"style="color:#20509E;float:left">
+                  Server 1
+                  </td>        
+                  <td data-th="Net Amount"class="public" >
+                    assadsfgfhgjhasdfghjklxcvbnm
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- partial -->
+        </div>
+        
+      </div>
+</body>
+</html>

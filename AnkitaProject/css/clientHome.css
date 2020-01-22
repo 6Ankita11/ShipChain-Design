@@ -1,0 +1,79 @@
+*{ 
+margin:0;
+padding:0;
+font-family: 'Poppins', sans-serif;
+}
+/* Background Image */
+.header .content-box img
+{   
+background-size:cover;
+background-position: center;
+width:100%;
+height:100vh;
+position: relative;
+}
+/* LOGO */
+.menu h2
+{
+height: 100px;
+margin: 12px 0 0 56px;
+cursor:pointer;
+color:#20509E;
+position:absolute;
+top:2%;  
+}
+/* PARAGRAPH TEXT */
+.dashboard-text
+{
+height: 100px;
+margin: 140px 0 0 56px;
+cursor:pointer;
+color:#20509E;
+position:absolute;
+top:12%;
+}
+.dashboard-text p{
+margin-top:15px;
+letter-spacing:0.6px;
+}
+/* USER FORM */
+.form
+{
+position: absolute;
+top:35%;
+right:15%;
+margin-top:30px;
+}
+
+.login-image
+{
+position:absolute;
+top:10%;
+right:11%;
+border-radius:10px;
+}
+.btn
+{
+margin-left:38px;
+background-color:#57B846;
+border-radius:17px;
+width:150px;
+border:none!important;
+box-shadow: 5px 5px #878787;
+margin-top:12px;
+}
+.form-control
+{
+border-radius:17px !important;
+margin-right:12px;
+background:#E6E6E6;
+box-shadow: 5px 5px #888888;
+}
+input:focus, input.form-control:focus {
+
+outline:none !important;
+outline-width: 0 !important;
+box-shadow: none;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+}
